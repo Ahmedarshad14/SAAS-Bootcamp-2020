@@ -1,5 +1,4 @@
 name: SAAS Bootcamp 2020
-run-name: ${{ github.actor }} is learning GitHub Actions
 on:
   push:
     branches: [ master ]
