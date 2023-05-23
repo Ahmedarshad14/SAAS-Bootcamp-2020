@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing Surge
-        run: npm install --g surge
+        run: npm install --global surge
       - name: Deployin using Surge
         run: surge ./ saasbootcamp2020.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
         
